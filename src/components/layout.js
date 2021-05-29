@@ -9,6 +9,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
+import NavBar from "./Reuseable/NavBar";
 import Footer from "./Reuseable/Footer";
 import "./bootstrap.min.css";
 import "./layout.css";
@@ -16,6 +17,7 @@ import "./layout.css";
 const Layout = () => {
   return (
     <div>
+      <NavBar />
       <Footer />
     </div>
   );
