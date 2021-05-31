@@ -1,3 +1,10 @@
 .bg-theme {
   background: #1287a5;
 }
+.hero-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
