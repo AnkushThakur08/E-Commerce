@@ -1,9 +1,12 @@
 import * as React from "react";
-import { graphql } from "gatsby"; 
-
+import { graphql } from "gatsby";
+import card from "../images/card.jpeg";
+import about from "../images/about.png";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import HeroSection from "../components/Reuseable/HeroSection";
+import InfoBlock from "../components/Reuseable/InfoBlock";
+import DualInfoBlock from "../components/Reuseable/DualInfoBlock";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -14,6 +17,8 @@ const IndexPage = ({ data }) => (
       subtitle="LearnCodeOnline.in"
       heroclass="hero-background"
     />
+    <InfoBlock heading="About Us" />
+    <DualInfoBlock heading="Our Team" img={card} />
   </Layout>
 );
 
