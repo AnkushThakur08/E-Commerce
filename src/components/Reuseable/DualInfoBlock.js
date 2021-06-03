@@ -35,11 +35,11 @@ const DualInfoBlock = ({ heading, img }) => {
             </p>
           </div>
           <div className="col-4">
-            <div class="card bg-dark">
-              <img class="card-img-top" src={img} alt="Images Here" />
-              <div class="card-body">
-                <h5 class="card-title text-success">{heading}</h5>
-                <p class="card-text text-white">
+            <div className="card bg-dark">
+              <img className="card-img-top" src={img} alt="Images Here" />
+              <div className="card-body">
+                <h5 className="card-title text-success">{heading}</h5>
+                <p className="card-text text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                   blanditiis at autem beatae porro, quibusdam iusto non
                   similique velit! Debitis quos obcaecati beatae nihil sapiente

@@ -27,10 +27,10 @@ const NavBar = () => {
             <Link to="/" className="nav-link text-white">
               Home
             </Link>
-            <Link to="/about" className="nav-link text-white">
+            <Link to="/About" className="nav-link text-white">
               About
             </Link>
-            <Link to="/services" className="nav-link text-white">
+            <Link to="/Services" className="nav-link text-white">
               Services
             </Link>
             <Link to="/contact" className="nav-link text-white">
