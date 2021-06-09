@@ -7,7 +7,7 @@ const DualInfoBlock = ({ heading, img }) => {
     <section className="bg-theme my-5 py-4">
       <div className="container">
         <Heading title={heading} />
-        <div class="row">
+        <div className="row">
           <div className="col-8 mx-auto">
             <p className="lead text-white mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero

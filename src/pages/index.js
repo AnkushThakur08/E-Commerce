@@ -6,6 +6,7 @@ import Seo from "../components/seo";
 import HeroSection from "../components/Reuseable/HeroSection";
 import InfoBlock from "../components/Reuseable/InfoBlock";
 import DualInfoBlock from "../components/Reuseable/DualInfoBlock";
+import CourseCart from "../components/Cart/CourseCart";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = ({ data }) => (
       heroclass="hero-background"
     />
     <InfoBlock heading="About Us" />
+    <CourseCart courses={data.courses} />
     <DualInfoBlock heading="Our Team" img={card} />
   </Layout>
 );
@@ -27,7 +29,24 @@ export const query = graphql`
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
-          src
+        }
+      }
+    }
+    courses: allContentfulCourses {
+      edges {
+        node {
+          id
+          title
+          price
+          category
+          description {
+            description
+          }
+          image {
+            fixed(height: 120, width: 200) {
+              ...GatsbyContentfulFixed_tracedSVG
+            }
+          }
         }
       }
     }
