@@ -48,13 +48,13 @@ export default class CourseCart extends Component {
     return (
       <section className="py-5">
         <div className="container">
-          <Heading title="Courses" />
+          <Heading title="Our Amazing Online Courses" />
           <div className="row my-3">
             <div className="col-10 mx-auto text-center">
               {this.state.mycategories.map((category, index) => {
                 return (
                   <button
-                    className="btn btn-info m-3 px-3"
+                    className="btn btn-info button"
                     type="button"
                     key={index}
                     onClick={() => {

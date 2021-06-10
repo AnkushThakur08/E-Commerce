@@ -28,3 +28,7 @@
 .underline {
   text-decoration: none;
 }
+.button {
+  padding: 7px 40px;
+  margin: 30px;
+}

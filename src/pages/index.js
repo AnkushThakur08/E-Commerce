@@ -17,8 +17,9 @@ const IndexPage = ({ data }) => (
       subtitle="LearnCodeOnline.in"
       heroclass="hero-background"
     />
-    <InfoBlock heading="About Us" />
+    <InfoBlock heading="Our Story" />
     <CourseCart courses={data.courses} />
+    <InfoBlock heading="Payments" />
     <DualInfoBlock heading="Our Team" img={card} />
   </Layout>
 );

@@ -13,7 +13,7 @@ const ContactPage = ({ data }) => (
     <Seo title="About" />
     <HeroSection
       img={data.img.childImageSharp.fluid}
-      title="About Us"
+      title="Contact Us"
       subtitle=""
       heroclass="about-background"
     />
