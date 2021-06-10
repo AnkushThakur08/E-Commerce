@@ -33,7 +33,7 @@ const NavBar = () => {
             <Link to="/Services" className="nav-link text-white">
               Services
             </Link>
-            <Link to="/contact" className="nav-link text-white">
+            <Link to="/Contact" className="nav-link text-white">
               Contact
             </Link>
             <Link to="/" className="nav-link text-white">

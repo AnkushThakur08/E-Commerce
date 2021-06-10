@@ -1,17 +1,14 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 
-import card from "../images/card.jpeg";
-
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
 import HeroSection from "../components/Reuseable/HeroSection";
 import InfoBlock from "../components/Reuseable/InfoBlock";
-import DualInfoBlock from "../components/Reuseable/DualInfoBlock";
-import TeamImages from "../components/About/TeamImages";
+import ContactForm from "../components/contact/ContactForm";
 
-const AboutPage = ({ data }) => (
+const ContactPage = ({ data }) => (
   <Layout>
     <Seo title="About" />
     <HeroSection
@@ -20,15 +17,15 @@ const AboutPage = ({ data }) => (
       subtitle=""
       heroclass="about-background"
     />
-    <DualInfoBlock heading="Message from CEO" img={card} />
-    <InfoBlock heading="Our Vision" />
-    <TeamImages img={card} />
+
+    <InfoBlock heading="How we can Help?" />
+    <ContactForm />
   </Layout>
 );
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "about.png" }) {
+    img: file(relativePath: { eq: "contact.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -39,4 +36,4 @@ export const query = graphql`
   }
 `;
 
-export default AboutPage;
+export default ContactPage;
