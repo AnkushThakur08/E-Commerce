@@ -19,7 +19,7 @@ const InfoBlock = ({ heading }) => {
               odit dolore consectetur cum iure nulla doloribus pariatur velit
               tempore!
             </p>
-            <Link to="/about/">
+            <Link to="">
               <button className="btn btn-lg btn-warning">{heading}</button>
             </Link>
           </div>

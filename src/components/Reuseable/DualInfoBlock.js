@@ -46,7 +46,7 @@ const DualInfoBlock = ({ heading, img }) => {
                   iure obcaecati beatae
                 </p>
 
-                <Link to="/about/">
+                <Link to="">
                   <button className="btn btn-block btn-warning">
                     {heading}
                   </button>
