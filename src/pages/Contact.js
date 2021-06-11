@@ -10,7 +10,7 @@ import ContactForm from "../components/contact/ContactForm";
 
 const ContactPage = ({ data }) => (
   <Layout>
-    <Seo title="About" />
+    <Seo title="Contact" />
     <HeroSection
       img={data.img.childImageSharp.fluid}
       title="Contact Us"

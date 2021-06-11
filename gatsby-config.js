@@ -3,7 +3,7 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    title: `LearnCodeOnline`,
+    title: `Learn Code Online`,
     description: `Amazing LCO Website`,
     author: `@gatsbyjs`,
   },

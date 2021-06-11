@@ -43,9 +43,7 @@ const DualInfoBlock = ({ heading, img }) => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                   blanditiis at autem beatae porro, quibusdam iusto non
                   similique velit! Debitis quos obcaecati beatae nihil sapiente
-                  iure nulla molestias numquam quam expedita necessitatibus,
-                  dolore labore blanditiis explicabo, sunt similique sequi
-                  recusandae
+                  iure obcaecati beatae
                 </p>
 
                 <Link to="/about/">

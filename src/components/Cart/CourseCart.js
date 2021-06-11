@@ -78,9 +78,12 @@ export default class CourseCart extends Component {
                   <div className="flex-grow-1 px-3">
                     <div className="d-flex justify-content-between">
                       <h6 className="mb-0">{node.title}</h6>
-                      <h6 className="mb-0 text-success">${node.price}</h6>
+                      {/* <h6 className="mb-0 text-success">
+                        &#x20b9; {node.price}
+                      </h6> */}
                     </div>
-                    <p className="text-muted"></p>
+                    <h6 className="mb-0 text-success">&#x20b9; {node.price}</h6>
+                    <p className="text-muted">{node.description.description}</p>
                     <button
                       className="btn btn-warning snipcart-add-item "
                       data-item-id={node.id}

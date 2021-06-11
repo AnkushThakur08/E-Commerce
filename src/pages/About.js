@@ -2,6 +2,9 @@ import * as React from "react";
 import { graphql } from "gatsby";
 
 import card from "../images/card.jpeg";
+import Member1 from "../images/member1.jpeg";
+import Member2 from "../images/member2.jpeg";
+import ceo from "../images/ceo.jpg";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
@@ -20,9 +23,9 @@ const AboutPage = ({ data }) => (
       subtitle=""
       heroclass="about-background"
     />
-    <DualInfoBlock heading="Message from CEO" img={card} />
     <InfoBlock heading="Our Vision" />
-    <TeamImages img={card} />
+    <TeamImages img={Member1} img1={Member2} img3={card} />
+    <DualInfoBlock heading="Message from CEO" img={ceo} />
   </Layout>
 );
 

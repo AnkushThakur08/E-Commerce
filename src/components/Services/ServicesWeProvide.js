@@ -3,7 +3,7 @@ import Heading from "../Reuseable/Heading";
 
 const Services = ({ img1, img2, img3, heading }) => {
   return (
-    <section className="bg-theme my-5 py-4">
+    <section>
       <div className="container">
         <Heading title={heading} />
         <div className="row">
@@ -35,7 +35,7 @@ const Services = ({ img1, img2, img3, heading }) => {
               <div className="card">
                 <img className="card-img-top" src={img3} alt="" />
                 <div className="card-body">
-                  <h5 className="card-title">Block Chain</h5>
+                  <h5 className="card-title">JavaScript</h5>
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This card has even longer
