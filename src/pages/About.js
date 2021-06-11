@@ -2,8 +2,8 @@ import * as React from "react";
 import { graphql } from "gatsby";
 
 import card from "../images/card.jpeg";
-import Member1 from "../images/member1.jpeg";
-import Member2 from "../images/member2.jpeg";
+import Member1 from "../images/Member1.jpeg";
+import Member2 from "../images/Member2.jpeg";
 import ceo from "../images/ceo.jpg";
 
 import Layout from "../components/layout";
